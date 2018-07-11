@@ -2,7 +2,7 @@
 
 <div align="justify">
 
-A living repository on how to analyze data in medicine.
+A living repository on how to analyze data in medicine. Most books on medical data analysis now available recommend practices that were state-of-the-art 25-35 years ago. This repo will illustrate how to analyze data now and users will be able to use GitHub's version control to observe previous recommendations.
 
 ## Observational data
 
