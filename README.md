@@ -26,6 +26,8 @@ A living repository on how to analyze data in medicine. Most books on medical da
 
 * Causal inference. As of March 2019, the recommended procedure is to use doubly robust machine learning with cross-fitting and trimming. To do so, fit the machine learning model (using your favorite algorithm and by optimizing for out of sample performance, i.e. NOT overfitting) fit within n-1 folds and predict within the last fold (usually 5-fold cross-fitting) with trimming (trimming adjusts for overfitting). Then, add up the 5 estimates and divide by 5 for an unbiased estimator of the ATE.
 
+* Run as many analyses of as many associations as possible - exhaust your data. This will allow us to correctly adjust for the p-value and achieve a better false-discovery rate, rather than creating many publications for each association you want to test.
+
 ### Data reporting
 
 * Provide forest plots to illustrate the confidence intervals associated to each association tested - do not provide the p-values and do not provide the confidence intervals without this forest plot.
@@ -34,5 +36,6 @@ A living repository on how to analyze data in medicine. Most books on medical da
 
 * Make your code and data available on OSF, GitHub, etc.
 
+* Report ALL data - the p-value should play NO role in whether you choose to report your data or not.
 
 </div>
