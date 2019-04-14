@@ -38,4 +38,6 @@ A living repository on how to analyze data in medicine. Most books on medical da
 
 * Report ALL data - the p-value should play NO role in whether you choose to report your data or not.
 
+* Provide a supplement briefly explaining the methods used (1-2 paragraphs per method)
+
 </div>
